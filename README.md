@@ -80,7 +80,7 @@ cd lm-evaluation-harness
 pip install -e .
 ```
 
-Then, go to `models\T5\Auto_Scripts`, run the following command:
+Then, go to `models\T5\Auto_Scripts` and run the following command:
 
 ```bash
 bash T5-large.sh 
