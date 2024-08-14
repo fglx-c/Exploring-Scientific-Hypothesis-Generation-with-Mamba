@@ -74,9 +74,11 @@ conda activate pyt1.11
 
 To test auto evaluation, follow the steps:
 
+```bash
 git clone https://github.com/EleutherAI/lm-evaluation-harness
 cd lm-evaluation-harness
 pip install -e .
+```
 
 Then, go to `models\T5\Auto_Scripts`, run the following command:
 
