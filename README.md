@@ -1,4 +1,4 @@
-### Exploring-Scientific-Hypothesis-Generation-with-Mamba
+# Exploring-Scientific-Hypothesis-Generation-with-Mamba
 
 =================
 
