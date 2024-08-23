@@ -1,4 +1,3 @@
-Table of Contents
 =================
 
 * [Overview](#overview)
@@ -42,7 +41,7 @@ pip install -r requirements.txt
 
 1. Unzip all the zip files located in the data folder, including its subfolders.
 2. Place the following folders, extracted from their respective zip files, under the data folder: `kg`,`ct`, and `gold_subset`
-3. Locate the `local_context_dataset` folder unzipped from `data/local_context_dataset.zip`.Move it to `models/T5`.
+3. Locate the `local_context_dataset` folder unzipped from `data/local_context_dataset.zip`. Move it to `models/T5` and `models/Mamba`.
 4. Copy the file `e2t.json` and paste it into the following folders:   `models\GPT*\`, `models\Iterative\`, and `preprocess\`
   
 ### Data Preprocess
@@ -59,7 +58,7 @@ The project data includes the following components:
 3. `data/ct/*.csv`: The `data/ct` directory contains files that represent the citation network for all papers.
 4. `data/gold_subset`: This directory contains our gold annotation subsets.
 5. `data/biomedical.zip`: This directory contains our biochemical datasets.
-6. `evaluation` contain sample evaluation code.
+6. `evaluation` contains sample evaluation code.
 
 
 ## Quickstart for NLP domain
@@ -93,7 +92,7 @@ We can get GPT4 results using the following command:
 python gpt4.py
 ```
 
-After gettubg GPT4 results, first copy all GPT4 results under the `iterative` folder, you can then run the first two iterations of iterative novelty boosting by running the following command: 
+After getting GPT4 results, first copy all GPT4 results under the `iterative` folder, you can then run the first two iterations of iterative novelty boosting by running the following command: 
 
 ```bash
 python calculate_sim.py
